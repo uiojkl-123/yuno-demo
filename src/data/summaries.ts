@@ -1,0 +1,116 @@
+import { SummaryJSON } from './types';
+
+export const summaries: Record<string, SummaryJSON> = {
+  'seoul-scholarship-001': {
+    summary_3lines: [
+      '서울 거주 저소득 대학생',
+      '등록금·생활비 일부 지원',
+      '온라인 신청 후 서류 제출',
+    ],
+    eligibility: '서울 거주 또는 재학, 소득 하위 기준 충족.',
+    benefits: '등록금 일부 및 생활비를 지원합니다.',
+    how_to_apply: '온라인 신청 후 증빙서류를 제출하세요.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'gov-intern-002': {
+    summary_3lines: [
+      '공공기관 직무 체험 기회',
+      '월 급여·경험 제공',
+      '온라인 지원서 제출',
+    ],
+    eligibility: '대학생 및 졸업예정자 누구나.',
+    benefits: '월 급여와 실무 경험 제공.',
+    how_to_apply: '온라인으로 지원서를 제출합니다.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'uni-research-003': {
+    summary_3lines: [
+      '학부 연구비 지원 공모',
+      '멘토링·연구비 제공',
+      '제안서 업로드·발표',
+    ],
+    eligibility: '학부 재학생 팀 또는 개인.',
+    benefits: '연구비와 멘토링을 제공합니다.',
+    how_to_apply: '제안서를 업로드하고 발표합니다.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'activity-004': {
+    summary_3lines: [
+      '청년 서포터즈 모집',
+      '활동비·수료증 제공',
+      '지원서·영상 제출',
+    ],
+    eligibility: '열정과 책임감 있는 대학생.',
+    benefits: '활동비 및 수료증 제공.',
+    how_to_apply: '지원서와 영상을 제출.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'scholarship-005': {
+    summary_3lines: [
+      '이공계 대상 장학금',
+      '등록금 전액/반액 지원',
+      '추천서 포함 신청',
+    ],
+    eligibility: '이공계 전공 2학년 이상, 소득 요건.',
+    benefits: '등록금 전액 또는 반액 지원.',
+    how_to_apply: '추천서 포함 온라인 신청.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'competition-006': {
+    summary_3lines: ['캡스톤 경진대회', '상금·시상 제공', '시제품 제출 필요'],
+    eligibility: '졸업작품 참여 팀.',
+    benefits: '상금과 시상.',
+    how_to_apply: '작품 설명서와 시제품 제출.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'lifestyle-007': {
+    summary_3lines: [
+      '주거비 일부 지원',
+      '월세 거주 대학생 대상',
+      '증빙서류 제출',
+    ],
+    eligibility: '월세 거주 대학생, 소득 요건.',
+    benefits: '월 주거비 일부 지원.',
+    how_to_apply: '신청서와 임대차계약서 제출.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'gov-support-008': {
+    summary_3lines: [
+      '미취업 청년 지원금',
+      '월 구직활동비 지급',
+      '상담 참여 필요',
+    ],
+    eligibility: '졸업 후 미취업 청년.',
+    benefits: '월 구직활동비 지급.',
+    how_to_apply: '온라인 신청 후 상담 참여.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'activity-009': {
+    summary_3lines: [
+      '사회공헌 서포터즈',
+      '활동인증·포상 제공',
+      '면접 진행 예정',
+    ],
+    eligibility: '봉사 경험 우대.',
+    benefits: '활동 인증서 및 포상.',
+    how_to_apply: '온라인 지원 및 면접.',
+    reading_level: 'plain',
+    citations: [],
+  },
+  'uni-research-010': {
+    summary_3lines: ['산학공동 연구참여', '연구비·인턴 연계', '제안서 제출'],
+    eligibility: '학부생 팀, 기업 멘토 매칭.',
+    benefits: '연구비 및 인턴 연계.',
+    how_to_apply: '제안서 제출 후 심사.',
+    reading_level: 'plain',
+    citations: [],
+  },
+};
